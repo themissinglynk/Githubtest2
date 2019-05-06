@@ -27,6 +27,7 @@ Partial Class Form1
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
         Me.SuspendLayout()
         '
         'Button2
@@ -77,11 +78,22 @@ Partial Class Form1
         Me.CheckBox3.Text = "CheckBox3"
         Me.CheckBox3.UseVisualStyleBackColor = True
         '
+        'CheckBox4
+        '
+        Me.CheckBox4.AutoSize = True
+        Me.CheckBox4.Location = New System.Drawing.Point(196, 270)
+        Me.CheckBox4.Name = "CheckBox4"
+        Me.CheckBox4.Size = New System.Drawing.Size(81, 17)
+        Me.CheckBox4.TabIndex = 6
+        Me.CheckBox4.Text = "CheckBox4"
+        Me.CheckBox4.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(491, 347)
+        Me.Controls.Add(Me.CheckBox4)
         Me.Controls.Add(Me.CheckBox3)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.CheckBox2)
@@ -98,4 +110,5 @@ Partial Class Form1
     Friend WithEvents CheckBox2 As CheckBox
     Friend WithEvents Button1 As Button
     Friend WithEvents CheckBox3 As CheckBox
+    Friend WithEvents CheckBox4 As CheckBox
 End Class
